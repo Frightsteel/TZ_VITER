@@ -32,6 +32,6 @@ public class VolumeController : MonoBehaviour
     {
         float volumeValue = PlayerPrefs.GetFloat("VolumeValue");
         _volumeSlider.value = volumeValue;
-        AudioListener.volume = volumeValue;
+        _mixer.SetFloat("MusicVol", Mathf.Log10(_volumeSlider.value) * 20);
     }
 }
