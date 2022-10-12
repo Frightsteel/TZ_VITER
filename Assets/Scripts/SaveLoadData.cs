@@ -1,6 +1,5 @@
 using UnityEngine;
 
-//temp playerprefs
 public class SaveLoadData : MonoBehaviour
 {
     [SerializeField] private Spawner _spawner;

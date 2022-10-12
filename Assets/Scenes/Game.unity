@@ -2005,7 +2005,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 708456880}
+    m_TransformParent: {fileID: 1176584592}
     m_Modifications:
     - target: {fileID: 4771772377327789596, guid: 8c3cdd87a0fa0ab43b88b6c0c99b3dce, type: 3}
       propertyPath: m_Pivot.x
@@ -3290,7 +3290,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 948757096}
+    m_TransformParent: {fileID: 804473379}
     m_Modifications:
     - target: {fileID: 4771772377327789596, guid: 8c3cdd87a0fa0ab43b88b6c0c99b3dce, type: 3}
       propertyPath: m_Pivot.x

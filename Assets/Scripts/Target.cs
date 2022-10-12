@@ -25,7 +25,7 @@ public class Target : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
         if (GetComponentInParent<Pocket>().IsPermanent)
         {
-            //_image.raycastTarget = false;
+            _image.raycastTarget = false;
         }  
 
         AssignAnimationIDs();
@@ -61,6 +61,7 @@ public class Target : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
             transform.SetParent(currentParent);
             transform.localPosition = Vector3.zero;
         }
+        
         if (!GetComponentInParent<Pocket>().IsPermanent)
             _image.raycastTarget = true;
     }

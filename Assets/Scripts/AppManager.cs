@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AppManager : MonoBehaviour
@@ -15,11 +13,6 @@ public class AppManager : MonoBehaviour
     {
         UpdateDataSaves(!focus);
     }
-
-    //private void OnApplicationQuit()
-    //{
-    //    PlayerPrefs.DeleteAll();
-    //}
 
     private void UpdateDataSaves(bool isGameOnPaused)
     {
